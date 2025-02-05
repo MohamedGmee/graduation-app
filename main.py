@@ -55,7 +55,7 @@ def run_inference(model, image, draw, font, processed_classes):
 
 @app.route('/')
 def index():
-    return render_template('./templates/index.html')
+    return render_template('index.html')
 
 
 @app.route('/upload', methods=['POST'])
